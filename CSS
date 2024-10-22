@@ -1,0 +1,146 @@
+
+    body{
+        margin:0px;
+        padding:0px;
+        background :linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0, 0, 0, 0.5)50%),url('https://i.natgeofe.com/n/cfa19a0d-eff0-4628-8fdd-2ad8d66845dd/mountain-range-appenzell-switzerland.jpg?w=1280&h=853');
+        background-size:cover;
+        height:100%;
+        width:100%;
+        color:white;
+    }
+    .header{
+        padding-top: 0%;
+    }
+    .left{
+        
+        display:inline-block;
+        position:absolute;
+        top :0px;
+        left:30px;
+
+    }
+    .left div{
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bold;
+        text-align:center;
+        font-size:20px;
+    }
+    .left img{
+        width:180px;
+        
+    }
+    .mid{
+      
+        display:block;
+        margin-left: 30%; ;
+        width:40% ;
+    }
+    .right{
+       
+        display:inline-block;
+        position:absolute;
+        top :30px;
+        right:30px;
+    }
+    .navbar{
+        display:inline-block;
+        
+    }
+    .navbar li{
+        display: inline-block;
+    }
+    .navbar li a{
+        color:white;
+        text-decoration: none;
+        padding: 15px ;
+        font-size:20px;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    .navbar li a:hover , .navbar li a.active{
+        color:rgb(71, 233, 225);
+        text-decoration:underline;
+    }
+    .btn{
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin:0px 10px;
+        color:white;
+        background : linear-gradient(to top,rgba(189, 183, 183, 0.5)50%,rgba(248, 247, 247, 0.5)50%) ;
+        padding:3px 12px;
+        border: 1.5px solid rgb(255, 255, 255);
+        border-radius: 7px;
+        height: 30px;
+
+        
+
+    }
+    .btn:hover{
+        color:rgb(113, 115, 113);
+        background-color:white;
+    }
+    .container{
+        margin:10px;
+        /* border:2px solid rgb(251, 92, 18); */
+        padding: 75px;
+        width:50%;
+        font-family:cursive;
+        /* border-radius: 15px; */
+    }
+    .formgroup input {
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin:0px 10px;
+        /* color:rgb(0, 0, 0); */
+        background : linear-gradient(to top,rgba(189, 183, 183, 0.5)50%,rgba(248, 247, 247, 0.5)50%) ;
+        padding:3px 12px;
+        border: 2px solid rgb(22, 21, 21);
+        border-radius: 15px;
+        width: 70%;
+        height: 40px;
+        text-align:center;
+        font: 35px;
+    }
+
+    input::placeholder {
+        color: black;
+    }
+
+.container button{
+     display: block;
+     width:25%;
+     height: 40px;
+     font-family:'Times New Roman', Times, serif;
+     margin:10px auto;
+     color:white;
+     background-color:rgb(0, 0, 0) ;
+     padding:3px 12px;
+     border: 1.5px solid rgb(0, 0, 0);
+     border-radius: 10px;
+    }       
+    .container button:hover{
+        color:rgb(0, 0, 0);
+        font-weight: bold;
+        background-color:white;
+    }
+
+    .logo-container {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+        transition: transform 0.3s ease;
+    }
+
+    .instagram-logo {
+    width: 30px;
+    color: white;
+    height: auto;
+    transition: transform 0.3s ease; 
+}
+
+.logo-container:hover .instagram-logo {
+    transform: scale(1.1); 
+}
+
+    
