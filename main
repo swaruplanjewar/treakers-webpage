@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Travel freak</title>
+</head>
+<link rel="stylesheet" href="swarup.css">
+
+<body>
+    <div style="background-color: black; height: 100px; padding-top: 20px;" >
+    <!-- <header style="background-color: black; height: 100px;" > -->
+        <!-- left for logo -->
+        <div class="left">
+            <img style="height: 100px; width: 100px; padding: 10px; border-radius: 120px;"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVzXTFu4NMp8_P80hY3YhI21zQuGP44XN9pg&s" alt="">
+            
+        </div>
+        <!-- mid for navbar -->
+        <div class="mid">
+        <ul class="navbar" >
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">BOOKING</a></li>
+        <li><a href="#">HELP</a></li>
+       </ul>
+        </div>
+         <!-- right for button -->
+        <div class="right">
+            <button class="btn">CALL US</button>
+            <button class="btn">MAIL US</button>    
+        </div> 
+    <!-- </header> -->
+     </div>
+    <div class="container" style="text-align: center; margin-left: 275px;">
+        <h1>"Wander. Explore. Conquer."  Book Now!!</h1>
+    
+    <form action="noaction.php">
+        <div class="formgroup">
+            <input type="text" name="name" placeholder="Enter Your Name">
+         </div><br>
+         <div class="formgroup">
+            <input type="text" name="contact" placeholder="Enter Your Contact">
+         </div><br>
+         <div class="formgroup">
+            <input type="text" name="gender" placeholder="Enter Your Gender">
+         </div><br>
+         <div class="formgroup">
+            <input type="text" name="age" placeholder="Enter Your Age">
+         </div><br>
+         <div class="formgroup">
+            <input type="email" name="Email ID" placeholder="Enter Your Email ID">
+         </div><br>
+         <button type="submit" >Submit</button>
+         <P>*NOTE: Registration details will be send to your you'r Email id.</P>
+    </form>
+    </div>
+<div style="background-color: black; height: 100px; padding-bottom: 20px;">
+<div class="Footer" >
+    <div class="info" style="text-align: center; color: aqua;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: medium;">
+    <p>
+        Contact Us at our Enali:- manchalatreak@gogle.com<br>
+                    OR<br>
+        Phone NO:- 07184-258446<br>
+    </p>
+    </div>
+    <div class="logo-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Instagram_logo.png" alt="Instagram Logo" class="instagram-logo">
+    </div>
+</div>
+</div>
+
+</body>
+</html>
